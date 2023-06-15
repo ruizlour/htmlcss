@@ -2,10 +2,11 @@ body {
     margin: 20px 10%;
 }
 .peliculas {
-    background-color: aliceblue;
+    background-color: #fff0fa;
     padding: 20px;
     border: 1px solid lightgrey;
     transition: 1s;
+    border-radius: 5px;
 }
 .peliculas li {
     transition: 1s;
@@ -19,14 +20,29 @@ body {
     margin: 20px 0px;
 }
 .argumento {
-    background-color: whitesmoke;
+    background-color: #f8f1dd;
     border: 1px solid lightgray;
     padding: 20px;
+    border-radius: 5px;
 }
 .poster {
     text-align: center;
-    margin: 20px 0px;
+    border: 1px solid lightgray;
 }
-.doscolumnas {
+.poster img {
+    width: 100%;
+    min-width: 200px;
+    border-radius: 5px;
+    }
+.dos-cuadros{
     display: flex;
+    position: relative;
+    transition: 1s;
+    top: 0px;
+}
+.dos-cuadros:hover {
+    position: relative;
+    top: -10px;
+    transition: 1s;
+    box-shadow: 5px 3px 3px #adadad;
 }
